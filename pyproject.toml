@@ -3,7 +3,7 @@ requires = ['hatchling', "hatch-vcs"]
 build-backend = 'hatchling.build'
 
 [project]
-name = "release-it"
+name = "release-auto"
 version = "0.0.0"
 description = ""
 readme = "README.md"
@@ -27,8 +27,6 @@ tests = [ "pytest",]
 static_checkers = [ "flake8", "mypy", "pyright", "pylint",]
 formatters = [ "ruff", "isort",]
 docs = [ "mkdocs",]
-
-[tool]
 
 [project.urls]
 homepage = "https://todo.com"
